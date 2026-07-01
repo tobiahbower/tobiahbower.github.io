@@ -1,0 +1,24 @@
+name = "tobiahbower-portfolio-chat"
+main = "src/index.js"
+compatibility_date = "2024-09-23"
+
+# Workers AI binding (Llama 3.1)
+[ai]
+binding = "AI"
+
+# Future vector search — uncomment when ready:
+# [[vectorize]]
+# binding = "VECTORIZE_INDEX"
+# index_name = "portfolio-knowledge"
+
+[vars]
+RETRIEVAL_MODE = "full"
+KNOWLEDGE_URL = "https://tobiahbower.github.io/data/knowledge.md"
+KNOWLEDGE_JSON_URL = "https://tobiahbower.github.io/data/knowledge.json"
+ALLOWED_ORIGINS = "https://tobiahbower.github.io,http://localhost:8000,http://127.0.0.1:8000"
+LLM_MODEL = "@cf/meta/llama-3.1-8b-instruct"
+LLM_MAX_TOKENS = "512"
+LLM_TEMPERATURE = "0.2"
+MAX_MESSAGE_LENGTH = "500"
+
+# VECTOR_TOP_K = "5"

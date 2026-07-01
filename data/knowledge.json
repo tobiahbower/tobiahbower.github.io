@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "generated_at": "2026-07-01T02:46:26.078620+00:00",
+  "retrieval_mode": "full",
+  "vector_store": {
+    "enabled": false,
+    "provider": null,
+    "index_name": null,
+    "notes": "Set retrieval_mode to 'vector' and enable vector_store when ready."
+  },
+  "documents": [
+    {
+      "id": "site",
+      "path": "data/site.md",
+      "chunks": [
+        {
+          "id": "site-0",
+          "source": "site",
+          "text": "# Tobiah Bower \u2014 Portfolio (2024+)\n\n## About\n\nGNC Engineer and graduate researcher pursuing an M.S. in Electrical Engineering at the University of Central Florida (GPA 3.83, expected May 2026). B.S. in Electrical Engineering from UCF (GPA 3.89, May 2025). Based in Orlando, FL.\n\nContact: tobiahjbower@gmail.com | (919) 360-8771\n\nLinks:\n- Portfolio: https://tobiahbower.github.io\n- GitHub: https://github.com/tobiahbower\n- LinkedIn: https://linkedin.com/in/tobiah-bower\n\n## Education",
+          "embedding": null
+        },
+        {
+          "id": "site-1",
+          "source": "site",
+          "text": "- M.S. Electrical Engineering, University of Central Florida, GPA 3.83 (expected May 2026)\n- B.S. Electrical Engineering, University of Central Florida, GPA 3.89 (May 2025)\n- 3x IEEE Signal Processing Society Student Scholarship (2023\u20132025)\n- Relevant coursework: Deep Learning, OOP, Computer Communication Networks, Guidance Navigation and Controls, Estimation of Dynamical Systems, Digital Control, Image Processing, Applied Randomness, Signal Analysis, Analog Communication\n\n## Work Experience (2024+)\n\n### GNC Engineer Associate / TacIRST Algorithms \u2014 Lockheed Martin MFC\nJuly 2025 \u2014 Present | Orlando, FL",
+          "embedding": null
+        },
+        {
+          "id": "site-2",
+          "source": "site",
+          "text": "- Tuned operating point for sequential probability ratio test feature estimator for HYDRA flight test inertial tracker build\n- Contributed threat signature, performance statistics, and analysis products to Milestone C Report\n- Diversified analysis infrastructure with parallel processing on cluster and end-to-end simulation analysis in SPADE\n- Deployed executable SPADE tool (Software for Performance Analysis and Design of Experiments) with Git pipeline\n- Utilized FlightRadar24 API via Python scripts for flight test airliner traffic analysis\n- Pioneered inertial sensor POV coastlines and horizon line for SPADE video player; demoed to Systems Engineering AATC\n\n### Image Processing CWEP / Advanced Threat Warning Systems \u2014 Lockheed Martin MFC\nJanuary 2025 \u2014 April 2025 | Orlando, FL",
+          "embedding": null
+        },
+        {
+          "id": "site-3",
+          "source": "site",
+          "text": "- Created distortion visualizer tool using radial basis function class and dynamic interfacing to SPADE\n- Developed handtruth-to-chip conversion MATLAB class; prototyped SPADE data input translator and module broker\n- Supported ADAS, TacAIR, and Combat Archer flight test data analysis\n\n### Systems Engineering CWEP / Multi-Domain Missile Systems \u2014 Lockheed Martin MFC\nMay 2022 \u2014 December 2024 | Orlando, FL",
+          "embedding": null
+        },
+        {
+          "id": "site-4",
+          "source": "site",
+          "text": "Recent highlights (2024):\n- Enabled forward compatibility for JAGM mmWave terminal doppler imaging MATLAB tool\n- Compiled JAGM IFS SDZ results for Navy customer\n- Generated Hellfire QALVT analysis suite: aero model validation, TM dropouts, modal analysis, nav fusion\n- Ran preflight predictions for QALVT using IFS Monte Carlo parameters\n- Developed novel MATLAB telemetry analysis tool for Spike NLOS simulation\n\n## Projects\n\n### FORWARD \u2014 Senior Design (Computer Vision + Sensor Fusion)\nAugust 2024 \u2014 May 2025 | Orlando, FL",
+          "embedding": null
+        },
+        {
+          "id": "site-5",
+          "source": "site",
+          "text": "Feedback Oriented Routing & Walker Assistance w Responsive Direction. Active obstacle detection with 2\u03c0 steradian coverage using ultrasonic and LiDAR sensors. Artificial potential field obstacle avoidance using YOLO detections and IMU data. 4-layer main controller PCB and 2-layer voltage regulator PCB. Chassis, enclosure, sensor mounting, haptic feedback, and wire sleeving.\n\n## Research\n\n### SPREN \u2014 Speech Phase Reconstruction and Enhancement\nDecember 2024 \u2014 Present | Autonomous and Intelligent Systems Laboratory, UCF",
+          "embedding": null
+        },
+        {
+          "id": "site-6",
+          "source": "site",
+          "text": "- Speech denoising algorithm using Kalman Filter based on autoregressive linear predictive coefficients\n- Compared Griffin-Lim phase recovery (GLA) vs neural network phase prediction (NSPP)\n- Hybrid series algorithm filter trade study on process noise vs speech quality, intelligibility, and SNR\n\n## Activities (2024+)\n\n- UCF Student Scholar Symposium, Speech Phase Reconstruction \u2014 Poster Presenter (Spring 2025)\n\n## Skills\n\nProgramming: MATLAB, Bash, Python, C/C++, SQL, HTML, CSS, Java\n\nTools: PostgreSQL, Podman, SLURM, QMon, LTspice, Beyond Compare, KiCAD, Keysight ADS, AWS\n\nPrograms: JIRA, Agile, Git/GitLab, LibreOffice, Microsoft Office, Hugging Face",
+          "embedding": null
+        }
+      ]
+    },
+    {
+      "id": "resume",
+      "path": "data/resume.md",
+      "chunks": [
+        {
+          "id": "resume-0",
+          "source": "resume",
+          "text": "(919) 360-8771\nOrlando, FL\ntobiahjbower@gmail.com\nTobiah Bower\nGNC Engineer / Graduate Researcher\nPortfolio: tobiahbower\ngithub.com/tobiahbower\nlinkedin.com/in/tobiah-bower\nEDUCATION\nMaster of Science in Electrical Engineering,University of Central Florida, GPA 3.83 May 2026\nBachelor of Science in Electrical Engineering,University of Central Florida, GPA 3.89 May 2025\n3x IEEE Signal Processing Society Student Scholarship2023 \u2014 2025\nCourses:Deep Learning, Object Oriented Programming, Computer Communication Networks, Guidance Navigation and Controls,\nEstimation of Dynamical Systems, Digital Control, Image Processing, Applied Randomness, Signal Analysis, Analog Communication\nWORK EXPERIENCE\nGNC Engineer Associate / TacIRST Algorithms July 2025 \u2014 Present\nLockheed Martin Missiles and Fire Contr",
+          "embedding": null
+        },
+        {
+          "id": "resume-1",
+          "source": "resume",
+          "text": "Engineer Associate / TacIRST Algorithms July 2025 \u2014 Present\nLockheed Martin Missiles and Fire Control Orlando, FL\n\u2022Tuned operating point for the sequential probability ratio test feature estimator for HYDRA flight test inertial tracker build\n\u2022Contributed threat signature, performance statistics, and other analysis products to Milestone C Report\n\u2022Diversified analysis infrastructure with support for parallel processing on Cluster and end-to-end simulation analysis in SPADE\n\u2022Deployed executable SPADE tool (Software for Performance Analysis and Design of Experiments) with Git pipeline\n\u2022Utilized FlightRadar24 API to extract airliner traffic through Python scripts for flight test analysis\n\u2022Pioneered inertial sensor POV coastlines and horizon line for SPADE video player and demoed to Systems Eng",
+          "embedding": null
+        },
+        {
+          "id": "resume-2",
+          "source": "resume",
+          "text": "red inertial sensor POV coastlines and horizon line for SPADE video player and demoed to Systems Engineering AATC\nImage Processing CWEP / Advanced Threat Warning Systems Jan 2025 \u2014 Apr 2025\nLockheed Martin Missiles and Fire Control Orlando, FL\n\u2022Created distortion visualizer tool using radial basis function class and introduced dynamic interfacing to SPADE\n\u2022Developed handtruth to chip conversion MATLAB class and prototyped SPADE data input translator and module broker\n\u2022Supported ADAS, TacAIR, Combat Archer flight test data analysis efforts\nSystems Engineering CWEP / Multi-Domain Missile Systems May 2022 \u2014 December 2024\nLockheed Martin Missiles and Fire Control Orlando, FL\n\u2022Enabled forward compatibility for JAGM mmWave terminal doppler imaging MATLAB tool\n\u2022Compiled JAGM IFS (integrated fligh",
+          "embedding": null
+        },
+        {
+          "id": "resume-3",
+          "source": "resume",
+          "text": "patibility for JAGM mmWave terminal doppler imaging MATLAB tool\n\u2022Compiled JAGM IFS (integrated flight simulation) SDZ (surface danger zone) results for Navy customer\n\u2022Generated Hellfire QALVT analysis suite for multiple events: aero model validation, TM dropouts, modal analysis, Nav fusion\n\u2022Ran preflight predictions for QALVT using IFS monte carlo parameters for mass properties, wind, thrust misalignment\n\u2022Developed novel MATLAB telemetry analysis tool for Spike NLOS simulation\nPROJECTS\nProject Lead/ FORWARD (Feedback Oriented Routing & Walker Assistance w Responsive Direction) (repo) Aug 2024 \u2014 May 2025\nSenior Design Project - (Computer Vision with Sensor Fusion) Orlando, FL\n\u2022Designed active obstacle detection system for2\u03c0steradian coverage using ultrasonic and LiDAR sensors\n\u2022Designed arti",
+          "embedding": null
+        },
+        {
+          "id": "resume-4",
+          "source": "resume",
+          "text": "obstacle detection system for2\u03c0steradian coverage using ultrasonic and LiDAR sensors\n\u2022Designed artificial potential field obstacle avoidance algorithm using YOLO detections and inertial measurement datastream\n\u2022Completed 4-layer Main controller PCB and 2-layer Voltage Regulator PCB\n\u2022Assembled chassis, enclosure, sensor mounting, haptic feedback system, and wire sleeving\nRESEARCH\nSpeech Phase Reconstruction and Enhancement (SPREN) / Undergraduate Researcher Dec 2024 \u2014 Present\nAutonomous and Intelligent Systems Laboratory (Multi-modal perception) Orlando, FL\n\u2022Developed speech denoising algorithm using Kalman Filter based on autoregressive linear predictive coefficients.\n\u2022Compared performance of Griffin-Lim phase recovery (GLA) to neural network phase prediction approach (NSPP)\n\u2022Conducted hyb",
+          "embedding": null
+        },
+        {
+          "id": "resume-5",
+          "source": "resume",
+          "text": "f Griffin-Lim phase recovery (GLA) to neural network phase prediction approach (NSPP)\n\u2022Conducted hybrid series algorithm filter trade study of process noise with respect to speech quality, intelligibility and SNR scores.\nACTIVITIES\nUCF Student Scholar Symposium, Speech Phase Reconstruction, Poster Presenter (Post) Spring 2025\nUCF Student Scholar Symposium, Super State Racer, Poster Presenter (Post) Spring 2023\nIEEE UCF: Digital Audio Workshops, Creator/Facilitator (Repository) Fall 2023\nSKILLS\nProgrammingMATLAB, Bash, Python, C/C++, SQL, HTML, CSS, Java\nToolsPostgreSQL, Podman, SLURM, QMon, L Tspice, Beyond Compare, KiCAD, Keysight ADS, AWS\nProgramsJIRA, Agile, Git/GitLab, LibreOffice, Microsoft Office, Hugging Face",
+          "embedding": null
+        }
+      ]
+    }
+  ],
+  "full_context": "# Tobiah Bower \u2014 Portfolio (2024+)\n\n## About\n\nGNC Engineer and graduate researcher pursuing an M.S. in Electrical Engineering at the University of Central Florida (GPA 3.83, expected May 2026). B.S. in Electrical Engineering from UCF (GPA 3.89, May 2025). Based in Orlando, FL.\n\nContact: tobiahjbower@gmail.com | (919) 360-8771\n\nLinks:\n- Portfolio: https://tobiahbower.github.io\n- GitHub: https://github.com/tobiahbower\n- LinkedIn: https://linkedin.com/in/tobiah-bower\n\n## Education\n\n- M.S. Electrical Engineering, University of Central Florida, GPA 3.83 (expected May 2026)\n- B.S. Electrical Engineering, University of Central Florida, GPA 3.89 (May 2025)\n- 3x IEEE Signal Processing Society Student Scholarship (2023\u20132025)\n- Relevant coursework: Deep Learning, OOP, Computer Communication Networks, Guidance Navigation and Controls, Estimation of Dynamical Systems, Digital Control, Image Processing, Applied Randomness, Signal Analysis, Analog Communication\n\n## Work Experience (2024+)\n\n### GNC Engineer Associate / TacIRST Algorithms \u2014 Lockheed Martin MFC\nJuly 2025 \u2014 Present | Orlando, FL\n\n- Tuned operating point for sequential probability ratio test feature estimator for HYDRA flight test inertial tracker build\n- Contributed threat signature, performance statistics, and analysis products to Milestone C Report\n- Diversified analysis infrastructure with parallel processing on cluster and end-to-end simulation analysis in SPADE\n- Deployed executable SPADE tool (Software for Performance Analysis and Design of Experiments) with Git pipeline\n- Utilized FlightRadar24 API via Python scripts for flight test airliner traffic analysis\n- Pioneered inertial sensor POV coastlines and horizon line for SPADE video player; demoed to Systems Engineering AATC\n\n### Image Processing CWEP / Advanced Threat Warning Systems \u2014 Lockheed Martin MFC\nJanuary 2025 \u2014 April 2025 | Orlando, FL\n\n- Created distortion visualizer tool using radial basis function class and dynamic interfacing to SPADE\n- Developed handtruth-to-chip conversion MATLAB class; prototyped SPADE data input translator and module broker\n- Supported ADAS, TacAIR, and Combat Archer flight test data analysis\n\n### Systems Engineering CWEP / Multi-Domain Missile Systems \u2014 Lockheed Martin MFC\nMay 2022 \u2014 December 2024 | Orlando, FL\n\nRecent highlights (2024):\n- Enabled forward compatibility for JAGM mmWave terminal doppler imaging MATLAB tool\n- Compiled JAGM IFS SDZ results for Navy customer\n- Generated Hellfire QALVT analysis suite: aero model validation, TM dropouts, modal analysis, nav fusion\n- Ran preflight predictions for QALVT using IFS Monte Carlo parameters\n- Developed novel MATLAB telemetry analysis tool for Spike NLOS simulation\n\n## Projects\n\n### FORWARD \u2014 Senior Design (Computer Vision + Sensor Fusion)\nAugust 2024 \u2014 May 2025 | Orlando, FL\n\nFeedback Oriented Routing & Walker Assistance w Responsive Direction. Active obstacle detection with 2\u03c0 steradian coverage using ultrasonic and LiDAR sensors. Artificial potential field obstacle avoidance using YOLO detections and IMU data. 4-layer main controller PCB and 2-layer voltage regulator PCB. Chassis, enclosure, sensor mounting, haptic feedback, and wire sleeving.\n\n## Research\n\n### SPREN \u2014 Speech Phase Reconstruction and Enhancement\nDecember 2024 \u2014 Present | Autonomous and Intelligent Systems Laboratory, UCF\n\n- Speech denoising algorithm using Kalman Filter based on autoregressive linear predictive coefficients\n- Compared Griffin-Lim phase recovery (GLA) vs neural network phase prediction (NSPP)\n- Hybrid series algorithm filter trade study on process noise vs speech quality, intelligibility, and SNR\n\n## Activities (2024+)\n\n- UCF Student Scholar Symposium, Speech Phase Reconstruction \u2014 Poster Presenter (Spring 2025)\n\n## Skills\n\nProgramming: MATLAB, Bash, Python, C/C++, SQL, HTML, CSS, Java\n\nTools: PostgreSQL, Podman, SLURM, QMon, LTspice, Beyond Compare, KiCAD, Keysight ADS, AWS\n\nPrograms: JIRA, Agile, Git/GitLab, LibreOffice, Microsoft Office, Hugging Face\n\n---\n\n# Resume\n\n(919) 360-8771\nOrlando, FL\ntobiahjbower@gmail.com\nTobiah Bower\nGNC Engineer / Graduate Researcher\nPortfolio: tobiahbower\ngithub.com/tobiahbower\nlinkedin.com/in/tobiah-bower\nEDUCATION\nMaster of Science in Electrical Engineering,University of Central Florida, GPA 3.83 May 2026\nBachelor of Science in Electrical Engineering,University of Central Florida, GPA 3.89 May 2025\n3x IEEE Signal Processing Society Student Scholarship2023 \u2014 2025\nCourses:Deep Learning, Object Oriented Programming, Computer Communication Networks, Guidance Navigation and Controls,\nEstimation of Dynamical Systems, Digital Control, Image Processing, Applied Randomness, Signal Analysis, Analog Communication\nWORK EXPERIENCE\nGNC Engineer Associate / TacIRST Algorithms July 2025 \u2014 Present\nLockheed Martin Missiles and Fire Control Orlando, FL\n\u2022Tuned operating point for the sequential probability ratio test feature estimator for HYDRA flight test inertial tracker build\n\u2022Contributed threat signature, performance statistics, and other analysis products to Milestone C Report\n\u2022Diversified analysis infrastructure with support for parallel processing on Cluster and end-to-end simulation analysis in SPADE\n\u2022Deployed executable SPADE tool (Software for Performance Analysis and Design of Experiments) with Git pipeline\n\u2022Utilized FlightRadar24 API to extract airliner traffic through Python scripts for flight test analysis\n\u2022Pioneered inertial sensor POV coastlines and horizon line for SPADE video player and demoed to Systems Engineering AATC\nImage Processing CWEP / Advanced Threat Warning Systems Jan 2025 \u2014 Apr 2025\nLockheed Martin Missiles and Fire Control Orlando, FL\n\u2022Created distortion visualizer tool using radial basis function class and introduced dynamic interfacing to SPADE\n\u2022Developed handtruth to chip conversion MATLAB class and prototyped SPADE data input translator and module broker\n\u2022Supported ADAS, TacAIR, Combat Archer flight test data analysis efforts\nSystems Engineering CWEP / Multi-Domain Missile Systems May 2022 \u2014 December 2024\nLockheed Martin Missiles and Fire Control Orlando, FL\n\u2022Enabled forward compatibility for JAGM mmWave terminal doppler imaging MATLAB tool\n\u2022Compiled JAGM IFS (integrated flight simulation) SDZ (surface danger zone) results for Navy customer\n\u2022Generated Hellfire QALVT analysis suite for multiple events: aero model validation, TM dropouts, modal analysis, Nav fusion\n\u2022Ran preflight predictions for QALVT using IFS monte carlo parameters for mass properties, wind, thrust misalignment\n\u2022Developed novel MATLAB telemetry analysis tool for Spike NLOS simulation\nPROJECTS\nProject Lead/ FORWARD (Feedback Oriented Routing & Walker Assistance w Responsive Direction) (repo) Aug 2024 \u2014 May 2025\nSenior Design Project - (Computer Vision with Sensor Fusion) Orlando, FL\n\u2022Designed active obstacle detection system for2\u03c0steradian coverage using ultrasonic and LiDAR sensors\n\u2022Designed artificial potential field obstacle avoidance algorithm using YOLO detections and inertial measurement datastream\n\u2022Completed 4-layer Main controller PCB and 2-layer Voltage Regulator PCB\n\u2022Assembled chassis, enclosure, sensor mounting, haptic feedback system, and wire sleeving\nRESEARCH\nSpeech Phase Reconstruction and Enhancement (SPREN) / Undergraduate Researcher Dec 2024 \u2014 Present\nAutonomous and Intelligent Systems Laboratory (Multi-modal perception) Orlando, FL\n\u2022Developed speech denoising algorithm using Kalman Filter based on autoregressive linear predictive coefficients.\n\u2022Compared performance of Griffin-Lim phase recovery (GLA) to neural network phase prediction approach (NSPP)\n\u2022Conducted hybrid series algorithm filter trade study of process noise with respect to speech quality, intelligibility and SNR scores.\nACTIVITIES\nUCF Student Scholar Symposium, Speech Phase Reconstruction, Poster Presenter (Post) Spring 2025\nUCF Student Scholar Symposium, Super State Racer, Poster Presenter (Post) Spring 2023\nIEEE UCF: Digital Audio Workshops, Creator/Facilitator (Repository) Fall 2023\nSKILLS\nProgrammingMATLAB, Bash, Python, C/C++, SQL, HTML, CSS, Java\nToolsPostgreSQL, Podman, SLURM, QMon, L Tspice, Beyond Compare, KiCAD, Keysight ADS, AWS\nProgramsJIRA, Agile, Git/GitLab, LibreOffice, Microsoft Office, Hugging Face"
+}
