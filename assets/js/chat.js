@@ -68,8 +68,14 @@
     this.closeBtn = this.root.querySelector('.portfolio-chat-close');
     this.sendBtn = this.root.querySelector('.portfolio-chat-send');
 
+
     this.toggleBtn.addEventListener('click', this.toggle.bind(this));
-    this.closeBtn.addEventListener('click', this.close.bind(this));
+    this.closeBtn.addEventListener('click', function(e) {
+      console.log('Close button clicked');
+      e.preventDefault();
+      e.stopPropagation();
+      this.close();
+    }.bind(this));
     this.form.addEventListener('submit', this.onSubmit.bind(this));
 
     this.renderSuggestions();
@@ -102,6 +108,7 @@
   PortfolioChatWidget.prototype.open = function () {
     this.isOpen = true;
     this.panel.hidden = false;
+    this.panel.style.display = 'flex';
     this.toggleBtn.setAttribute('aria-expanded', 'true');
     this.input.focus();
   };
@@ -109,6 +116,7 @@
   PortfolioChatWidget.prototype.close = function () {
     this.isOpen = false;
     this.panel.hidden = true;
+    this.panel.style.display = 'none';
     this.toggleBtn.setAttribute('aria-expanded', 'false');
   };
 
