@@ -1,4 +1,12 @@
 /* Portfolio chat widget — complements Miniport theme */
+/* Ensure chat widget styles override main theme */
+
+.portfolio-chat,
+.portfolio-chat *,
+.portfolio-chat *::before,
+.portfolio-chat *::after {
+  box-sizing: border-box;
+}
 
 .portfolio-chat {
   position: fixed;
@@ -6,6 +14,7 @@
   bottom: 1.25rem;
   z-index: 10000;
   font-family: 'Open Sans', sans-serif;
+  color: #252122 !important;
 }
 
 .portfolio-chat-toggle {
@@ -83,18 +92,19 @@
   font-size: 0.92rem;
   white-space: pre-wrap;
   word-break: break-word;
+  color: #252122 !important;
 }
 
 .portfolio-chat-message-user {
   margin-left: auto;
   background: #252122;
-  color: #fff;
+  color: #fff !important;
 }
 
 .portfolio-chat-message-assistant {
   background: #fff;
   border: 1px solid rgba(37, 33, 34, 0.12);
-  color: #252122;
+  color: #252122 !important;
 }
 
 .portfolio-chat-suggestions {
@@ -108,7 +118,7 @@
 .portfolio-chat-suggestion {
   border: 1px solid rgba(37, 33, 34, 0.15);
   background: #fff;
-  color: #252122;
+  color: #252122 !important;
   border-radius: 999px;
   padding: 0.35rem 0.65rem;
   font-size: 0.75rem;

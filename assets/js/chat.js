@@ -132,16 +132,20 @@
     var message = this.input.value.trim();
     if (!message) return;
 
-    if (!this.config.endpoint) {
-      this.addMessage('assistant', 'Chat is not configured yet. Set PORTFOLIO_CHAT_CONFIG.endpoint to your Cloudflare Worker URL.');
-      return;
-    }
-
     this.input.value = '';
     this.addMessage('user', message);
     this.setLoading(true);
 
     var self = this;
+
+    if (!this.config.endpoint || this.config.endpoint.includes('<YOUR_SUBDOMAIN>')) {
+      setTimeout(function () {
+        self.addMessage('assistant', 'The chat backend is not configured yet. Please check Tobiah\'s resume or contact him directly for now.');
+        self.setLoading(false);
+      }, 500);
+      return;
+    }
+
     fetch(this.config.endpoint, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
