@@ -84,6 +84,7 @@
       btn.type = 'button';
       btn.addEventListener('click', function () {
         self.input.value = question;
+        self.suggestionsEl.style.display = 'none';
         self.form.requestSubmit();
       });
       self.suggestionsEl.appendChild(btn);
